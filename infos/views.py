@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 def show_main_page(request):
 	c = {
-      	"title": "main page"
+      	"title": "Main Page"
        }
 	return render(
     	    request=request,
@@ -12,9 +12,9 @@ def show_main_page(request):
 	)
 
 
-def show_about_me(request):
+def show_about_me_page(request):
 	c = {
-        "title": "about me"
+        "title": "About Me"
         }
 	return render(
     	    request=request,
@@ -23,9 +23,9 @@ def show_about_me(request):
 	)
 
 
-def show_contact(request):
+def show_contact_page(request):
 	c = {
-      	"title": "contact"
+      	"title": "Contact"
      	}
 	return render(
     	    request=request,
