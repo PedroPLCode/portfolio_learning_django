@@ -25,7 +25,7 @@ def show_about_me_page(request):
 
 def show_contact_page(request):
 	c = {
-      	"title": "Contact"
+      	"title": "Contact me"
      	}
 	return render(
     	    request=request,
